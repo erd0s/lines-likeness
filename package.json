@@ -1,0 +1,20 @@
+{
+  "name": "lines",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "blue-vs-red": "ts-node index.ts blue-points.json red-points.json",
+    "blue-vs-yellow": "ts-node index.ts blue-points.json yellow-points.json",
+    "yellow-vs-red": "ts-node index.ts yellow-points.json red-points.json"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/lodash": "^4.14.123",
+    "@types/node": "^11.13.8",
+    "lodash": "^4.17.11",
+    "ts-node": "^8.1.0",
+    "typescript": "^3.4.5"
+  }
+}
